@@ -153,7 +153,7 @@ async def on_member_join(member):
         print(f"Membro novo em {guild.name}")
 
         if guild.system_channel is not None:
-            mensagem = f"Bem vindo {member.mention} ao {guild.name}!"
+            mensagem = f"Bem vindo {member.mention} ao {guild.name}!!!"
             await asyncio.sleep(1)
             await guild.system_channel.send(mensagem)
 
