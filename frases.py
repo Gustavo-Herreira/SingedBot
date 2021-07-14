@@ -17,6 +17,7 @@ class RandomMessage:
                 'frase10': 'Está do seu agrado?',
                 'frase11': 'Desculpa {0}, estou ocupado fazendo proxy :pray:'.format(author.mention),
                 'frase12': 'Chamou? :flushed:',
+                'frase13': 'Só tem elo porque é meta abuser 😒'
             }
         self.maxOption = len(self.frasesRandom)
 
