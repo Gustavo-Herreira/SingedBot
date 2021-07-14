@@ -1,0 +1,7 @@
+aiohttp
+asyncio
+discord.py==1.5.1
+async_timeout
+youtube_dl
+aiorule34
+PyNaCl

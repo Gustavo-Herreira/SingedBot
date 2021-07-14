@@ -1,0 +1,1 @@
+Singed_bot: python "main.py"
