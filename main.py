@@ -110,7 +110,7 @@ class Help(commands.Cog):
                     if command.help is not None:
                         help = command.help
                     embed.add_field(name=f'**{command}**',
-                                    value=f'{command.description}```{generate_usage(name)}```\n{help}()',
+                                    value=f'{command.description}```{generate_usage(name)}```\n{help}',
                                     inline=False)
                 else:
                     msg = ' '.join(commands)
